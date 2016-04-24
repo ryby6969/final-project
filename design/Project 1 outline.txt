@@ -1,0 +1,17 @@
+Final Project Outline
+
+
+8 possible responses:
+It is certain
+It is decidedly so
+My sources say no
+Outlook not so good
+You may rely on it
+Ask me again later
+Concentrate and ask again
+Outlook good
+
+Sample interaction:
+Ask the Magic 8 Ball a question.
+Will I win the lottery?
+Concentrate and ask again.
