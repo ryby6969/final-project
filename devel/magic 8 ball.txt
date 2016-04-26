@@ -8,7 +8,7 @@ while ans:
     
     answers = random.randint(1,8)   
 
-     if question == "":
+    if question == "":
         sys.exit("Goodbye, thanks for playing")    
     
     elif answers == 1:
