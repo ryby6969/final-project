@@ -1,7 +1,8 @@
 
 import random
 question=input("Ask the magic 8 ball a question")
-
+if '?' not in question:
+    print("Please type your question properly.")
 
 
 def yourAnswer(answers):
