@@ -1,36 +1,37 @@
 
 import random
 question=input("Ask the magic 8 ball a question")
-if '?' not in question:
-    print("Please type your question properly.")
 
-
+    
 def yourAnswer(answers):
-
-                
-    if answers == 1:
-        return ("It is certain")
     
-    elif answers == 2:
-        return ("It is decidedly so")
+    if '?' not in question:
+        print("Please type your question properly.")
+    else:
+               
+        if answers == 1:
+            return ("It is certain")
     
-    elif answers == 3:
-        return ("My sources say no")
+        elif answers == 2:
+            return ("It is decidedly so")
     
-    elif answers == 4:
-        return ("Outlook not so good")
+        elif answers == 3:
+            return ("My sources say no")
     
-    elif answers == 5:
-        return ("You may rely on it")
+        elif answers == 4:
+            return ("Outlook not so good")
     
-    elif answers == 6:
-        return ("Ask me again later")
+        elif answers == 5:
+            return ("You may rely on it")
     
-    elif answers == 7:
-        return ("Concentrate and ask again")
+        elif answers == 6:
+            return ("Ask me again later")
     
-    elif answers == 8:
-        return ("Outlook good")
+        elif answers == 7:
+            return ("Concentrate and ask again")
+    
+        elif answers == 8:
+            return ("Outlook good")
 
     
     
