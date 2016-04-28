@@ -19,3 +19,5 @@ Concentrate and ask again.
 First the code requests you to ask a question.
 You then type in the question and it generates a predetermined answer based up a randomly generated number that is returned. 
 The answer is then communicated to the user.
+
+The code first defines what a question is with the user's input being the question. The next line defines the answers that the code will reply with. After that the code makes sure that the user ends their question that they input in with a ?. If not the code will ask the user to retype the question. After this has been acomplished, a random number is generated and that number has an answer attached to it based on the code. The code then prints that answer. 
